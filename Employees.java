@@ -1,3 +1,7 @@
+//Create an Employee class wiith data members employee_no, emp_name, address, contact_no, basic_salary, project_id and age. Include methods to calculate net_salary,allowances and deductions. Input the basic information from the user and then create object of this class. 
+//Display the details about the user. Also apply constraints that age of employee should be more than 21 years and basic_salary > 8000. 
+//Rules for calculating allowances are: if basic_salary>8000<10000 then hra is 1000, if basic_sal>10000 and <=20000 then hra is 800 and if basic_salary>20000 then hra is 500 and DA if basic_salary>8000and <10000 then hra is 500,if basic_sal>10000 and <=20000 then da is 1000 and if basic_salary>20000 then da is 2000. Deductions: 10% of basic_salary
+
 import java.util.Scanner;
 
 public class Employees {
